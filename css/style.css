@@ -1,0 +1,26 @@
+.ecrevisse{
+     height: 600px;
+     width: 400px;
+ }
+
+.robert{
+    height: 600px;
+    width: 540px;
+}
+
+.zoom{
+    transform: scale(1.05);
+}
+
+@media (max-width:961px)
+{
+    .desktop-only{
+        display: none;!important;
+    }
+}
+@media   (max-width:641px){
+    .tablet-only {
+        background-color: yellow;
+    }
+    h1{color: yellow;}
+}
